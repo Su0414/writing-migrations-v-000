@@ -1,9 +1,9 @@
 class CreateStudents < ActiveRecord::Migration[5.1]
 
-  def change 
+  def change
     create table :students do |stu|
       stu.string :name
-    end 
-  end 
-  
+    end
+  end
+
 end
